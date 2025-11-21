@@ -130,13 +130,11 @@ npm run dev
 
 
 ## 📸 Screenshot
-```bash
-<<<<<<< HEAD
-=======
-Frontend/src/assets/Screenshot 2025-11-21 174830.png
->>>>>>> 5cfd4fd (updated readMe)
 
-```
+
+![App Screenshot]Frontend/src/assets/Screenshot 2025-11-21 174830.png
+
+
 
 🎯 **Future Enhancements**
 - Pagination
