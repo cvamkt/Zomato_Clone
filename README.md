@@ -131,8 +131,7 @@ npm run dev
 
 ## 📸 Screenshot
 
-
-![App Screenshot]Frontend/src/assets/Screenshot 2025-11-21 174830.png
+![Zomato/Swiggy Clone UI Screenshot](https://github.com/cvamkt/Zomato_Clone/tree/main/Frontend/src/assets/Screenshot%202025-11-21%20174830.png)
 
 
 
