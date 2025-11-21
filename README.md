@@ -50,27 +50,7 @@ This project replicates the core functionality of Zomato/Swiggy restaurant brows
 ## 📁 Project Structure
 
 
-zomato-clone/
-│
-├── Backend
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   │   └── restaurantController.js
-│   ├── models/
-│   │   └── restaurantModel.js
-│   ├── routes/
-│   │   └── restaurantRoutes.js
-│   └── server.js
-│
-└── Frontend
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── services/
-    │   ├── App.jsx
-    │   └── main.jsx
-
+zomato-clone/ │ ├── Backend │ ├── config/ │ │ └── db.js │ ├── controllers/ │ │ └── restaurantController.js │ ├── models/ │ │ └── restaurantModel.js │ ├── routes/ │ │ └── restaurantRoutes.js │ └── server.js │ └── Frontend ├── src/ │ ├── components/ │ ├── pages/ │ ├── services/ │ ├── App.jsx │ └── main.jsx
 
 
 
@@ -132,7 +112,7 @@ npm run dev
 
 ## 📸 Screenshot
 ```bash
-![App Screenshot](./assets/Screenshot 2025-11-21 174830)
+https://github.com/cvamkt/Zomato_Clone/assets/Screenshot 2025-11-21 174830
 ```
 
 
