@@ -18,7 +18,7 @@ This project replicates the core functionality of Zomato/Swiggy restaurant brows
   - Name
   - Category
   - Rating
-  - Price for 2
+  - Price
 - Fully responsive UI
 
 ### 🛠 Backend (Node.js + Express + MongoDB)
@@ -49,13 +49,18 @@ This project replicates the core functionality of Zomato/Swiggy restaurant brows
 
 ## 📁 Project Structure
 
+
 zomato-clone/
 │
 ├── Backend
-│   ├── config/db.js
-│   ├── controllers/restaurantController.js
-│   ├── models/restaurantModel.js
-│   ├── routes/restaurantRoutes.js
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── restaurantController.js
+│   ├── models/
+│   │   └── restaurantModel.js
+│   ├── routes/
+│   │   └── restaurantRoutes.js
 │   └── server.js
 │
 └── Frontend
@@ -91,7 +96,7 @@ Add scripts inside **package.json**
 "dev": "nodemon server.js"
 
 
-Run server
+**Run server**
 
 node server.js
 ```
@@ -137,5 +142,6 @@ npm run dev
 - User authentication & reviews
 
 🧑‍💻 **Author**
+
 **Shivam Kumar Thakur**
 MERN Stack Developer | Full-Stack Projects & UI Enthusiast
