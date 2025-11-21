@@ -78,17 +78,30 @@ zomato-clone/
 ### 🔹 Clone Repo
 ```bash
 git clone https://github.com/cvamkt/Zomato_Clone
+```
 
+```
 
 ## Backend Setup
+```bash
 
 cd Backend
 npm init -y
 npm install express mongoose cors dotenv nodemon -D nodemon
+```
+
+Add scripts inside **package.json**
+```json
 "start": "node server.js",
 "dev": "nodemon server.js"
+```
 
+
+Run server
+```bash
 node server.js
+```
+
 
 ## 🗄️ Database Setup (MongoDB Atlas)
 
@@ -103,19 +116,25 @@ mongodb+srv://<username>:<password>@cluster0.mongodb.net/restaurants
 # 5. Create .env file inside Backend
 MONGO_URI="your-mongodb-connection-url"
 PORT=5000
+```
 
 # 6. Connect MongoDB in db.js
+```js
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
+  ```
+
+
+  ```
 
 
 ## Frontend Setup
-
+```bash
 npm create vite@latest
 npm install
 npm run dev
-
+```
 
 
 
