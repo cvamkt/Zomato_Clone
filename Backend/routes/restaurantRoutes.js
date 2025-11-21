@@ -1,10 +1,29 @@
 import express from "express";
 import { createRestaurant, getAllrestaurant } from "../controllers/restaurantController.js";
+import multer from "multer";
+import path from "path";
+
+
+
 
 
 const router = express.Router();
 
+
+const storage = multer.diskStorage({
+    destination: (req, file,cb) => {
+        cb(null, "uploads/");
+    },
+    filename: (req, file,cb) =>{
+         cb(null, Date.now() + path.extname(file.originalname));
+    },
+});
+
+
+const upload = multer({storage});
+console.log("dikha" + upload);
+
 router.get("/", getAllrestaurant);
-router.post("/", createRestaurant);
+router.post("/", upload.single("image"), createRestaurant);
 
 export default router;
