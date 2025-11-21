@@ -75,22 +75,24 @@ zomato-clone/
 ### 🔹 Clone Repo
 ```bash
 git clone https://github.com/cvamkt/Zomato_Clone
+```
 
 
+### 🔹 backend setup
+```bash
 cd Backend
 npm init -y
 npm install express mongoose cors dotenv nodemon
 
 
 Add scripts inside **package.json**
-```json
+
 "start": "node server.js",
 "dev": "nodemon server.js"
-```
 
 
 Run server
-```bash
+
 node server.js
 ```
 
@@ -110,25 +112,23 @@ MONGO_URI="your-mongodb-connection-url"
 PORT=5000
 ```
 
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.log(err));
 
 
 
-  ```
-
-
-## Frontend Setup
+### 🔹 Frontend Setup
+```bash
 npm create vite@latest
 npm install
 npm run dev
+```
 
 
 
 
 ## 📸 Screenshot
+```bash
 ![App Screenshot](./assets/Screenshot 2025-11-21 174830)
+```
 
 
 🎯 **Future Enhancements**
