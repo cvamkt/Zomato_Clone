@@ -131,9 +131,7 @@ npm run dev
 
 ## 📸 Screenshot
 ```bash
-## 📸 Screenshot
 
-<img width="1892" height="960" alt="Screenshot 2025-11-21 174830" src="https://github.com/user-attachments/assets/a11538e9-8054-4b47-bcd7-d7f03a5a690e" />
 ```
 
 🎯 **Future Enhancements**
